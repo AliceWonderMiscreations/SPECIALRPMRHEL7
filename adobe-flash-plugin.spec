@@ -1,6 +1,6 @@
 %define majorversion 11
-%define minorversion 2.2
-%define subrelease 202.406
+%define minorversion 2
+%define subrelease 202.425
 %define adobearch x86_64
 %define debug_package %{nil}
 
@@ -48,5 +48,8 @@ rm -rf %{buildroot}
 
 
 %changelog
-* Wed Oct 01 2014 Alice Wonder <alicewonder@shastaherps.org> - 11.2-1
+* Sat Dec 13 2014 Alice Wonder <rpmbuild@domblogger.net> - 11.2.202.425-1
+- update to 11.2.202.425
+
+* Wed Oct 01 2014 Alice Wonder <rpmbuild@domblogger.net> - 11.2-1
 - Initial RPM spec file
