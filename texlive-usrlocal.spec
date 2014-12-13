@@ -78,12 +78,12 @@ rm -rf %{buildroot}
 
 
 %changelog
-* Thu Oct 02 2014 Alice Wonder <alicewonder@shastaherps.org> - 2014-1.1
+* Thu Oct 02 2014 Alice Wonder <rpmbuild@domblogger.net> - 2014-1.1
 - Added a bunch of virtual provides
 - TODO: Wrapper to /usr/bin stuff (e.g. texhash)
 -       Consider setting up a TEXMF where RHEL packages put their
 -         own custom macros
 -       Properly version the provides
 
-* Wed Oct 01 2014 Alice Wonder <alicewonder@shastaherps.org> - 2014-1
+* Wed Oct 01 2014 Alice Wonder <rpmbuild@domblogger.net> - 2014-1
 - Initial RPM spec file

@@ -142,8 +142,8 @@ cd ..
 %{_bindir}/mmdtsdec
 
 %changelog
-* Thu Oct 02 2014 Alice Wonder <alicewonder@shastaherps.org> - 1.8.13-2
+* Thu Oct 02 2014 Alice Wonder <rpmbuild@domblogger.net> - 1.8.13-2
 - Split mmdtsdec into separate package, +x the shared libraries
 
-* Thu Oct 02 2014 Alice Wonder <alicewonder@shastaherps.org> - 1.8.13-1
+* Thu Oct 02 2014 Alice Wonder <rpmbuild@domblogger.net> - 1.8.13-1
 - Initial spec file for RHEL/CentOS 7

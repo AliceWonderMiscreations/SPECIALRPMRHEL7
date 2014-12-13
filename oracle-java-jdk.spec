@@ -80,6 +80,6 @@ rm -rf %{buildroot}
 
 
 %changelog
-* Wed Oct 01 2014 Alice Wonder <alicewonder@shastaherps.org> - 8u20-1
+* Wed Oct 01 2014 Alice Wonder <rpmbuild@domblogger.net> - 8u20-1
 - Initial spec file (admittedly somewhat dirty - should have some
 -  subpackages)

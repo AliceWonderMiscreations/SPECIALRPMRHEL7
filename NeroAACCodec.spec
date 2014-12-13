@@ -38,5 +38,5 @@ rm -rf %{buildroot}
 
 
 %changelog
-* Wed Oct 08 2014 Alice Wonder <alicewonder@shastaherps.org> - 1.5.1-1
+* Wed Oct 08 2014 Alice Wonder <rpmbuild@domblogger.net> - 1.5.1-1
 - Initial spec file
