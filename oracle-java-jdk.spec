@@ -1,5 +1,5 @@
 %define majorversion 1.8.0
-%define minorversion 25
+%define minorversion 31
 %define sversion 8u%{minorversion}
 %define sarch x64
 %define jrearch amd64
@@ -80,6 +80,9 @@ rm -rf %{buildroot}
 
 
 %changelog
+* Fri Jan 23 2015 Alice Wonder <rpmbuild@domblogger.net> - 8u31-1
+- Update to 8u31
+
 * Wed Oct 01 2014 Alice Wonder <rpmbuild@domblogger.net> - 8u20-1
 - Initial spec file (admittedly somewhat dirty - should have some
 -  subpackages)
