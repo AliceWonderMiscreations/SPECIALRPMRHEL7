@@ -1,6 +1,6 @@
 %define majorversion 11
 %define minorversion 2
-%define subrelease 202.425
+%define subrelease 202.440
 %define adobearch x86_64
 %define debug_package %{nil}
 
@@ -48,6 +48,9 @@ rm -rf %{buildroot}
 
 
 %changelog
+* Thu Jan 29 2015 Alice Wonder <rpmbuild@domblogger.net> - 11.2.202.440-1
+- update to 11.2.202.440
+
 * Sat Dec 13 2014 Alice Wonder <rpmbuild@domblogger.net> - 11.2.202.425-1
 - update to 11.2.202.425
 
