@@ -1,5 +1,5 @@
 %define majorversion 1.8.0
-%define minorversion 31
+%define minorversion 40
 %define sversion 8u%{minorversion}
 %define sarch x64
 %define jrearch amd64
@@ -80,6 +80,9 @@ rm -rf %{buildroot}
 
 
 %changelog
+* Wed Apr 01 2015 Alice Wonder <rpmbuild@domblogger.net> - 8u40-1
+- Update to 8u40
+
 * Fri Jan 23 2015 Alice Wonder <rpmbuild@domblogger.net> - 8u31-1
 - Update to 8u31
 
